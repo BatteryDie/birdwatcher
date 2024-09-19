@@ -9,9 +9,9 @@ This project is Dockerized. Its main task is to access RSS data from Nitter and 
 2. In Discord, right-click on the desired channel and select 'Edit Channel.'
 3. In the channel settings, click 'Integrations' on the left sidebar, then click the 'Create Webhook' button.
 4. Discord will generate a webhook name. You may rename it if you wish. Click the right arrow to expand the webhook settings, then click the 'Copy Webhook URL' button.
-5. Copy the Webhook URL and paste it as `WEBHOOK_URL` into the `.env` file, Dockerfile or Docker Compose.
+5. Copy the Webhook URL and paste it as `WEBHOOK_URL` into the [Dockerfile](https://github.com/BatteryDie/birdwatcher/blob/main/Dockerfile) or Docker Compose.
     1. If running the Python file directly, paste it as `WEBHOOK_URL` into the `.env` file. Please refer to the Environment Variables Example.
-6. Set the `BIRD_USER`, `INTERVAL`, `NITTER_INSTANCE`, and `COLOUR` values in the Dockerfile or Docker Compose.
+6. Set the `BIRD_USER`, `INTERVAL`, `NITTER_INSTANCE`, and `COLOUR` values in the [Dockerfile](https://github.com/BatteryDie/birdwatcher/blob/main/Dockerfile) or Docker Compose.
     1. If running the Python file directly, set these values in the `.env` file. Please refer to the Environment Variables Example.
 7. Build the Docker image or run the Python file!
     1. If running the Python file directly, first execute `pip install -r requirements.txt`.
