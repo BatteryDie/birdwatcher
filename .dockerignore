@@ -1,0 +1,26 @@
+# database
+database/posts.db
+
+# Jetbrains
+.idea
+
+# VS Code
+.vscode
+
+# Ignore Python bytecode
+__pycache__
+
+# Ignore Git repository
+.git
+
+# Ignore Dockerfile and docker-compose.yml
+Dockerfile
+docker-compose.yml
+
+# Ignore local environment files
+.env
+.venv
+
+# Ignore other unwanted files
+*.log
+*.tmp
